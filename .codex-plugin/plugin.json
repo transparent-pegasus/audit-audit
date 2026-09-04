@@ -1,0 +1,36 @@
+{
+  "name": "audit-audit",
+  "version": "0.1.0",
+  "description": "Judge whether an audit instruction is appropriate; returns a final review statement with the points that need your decision.",
+  "author": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "homepage": "https://github.com/transparent-pegasus/audit-audit",
+  "repository": "https://github.com/transparent-pegasus/audit-audit",
+  "keywords": [
+    "audit",
+    "review",
+    "meta-review",
+    "instructions",
+    "code-review",
+    "judgment"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Audit Audit",
+    "shortDescription": "Judge whether an audit instruction is appropriate",
+    "longDescription": "Audits the audit itself. Reaches an initial conclusion, has it reviewed by a reviewer pane when herdrpowers is installed, and returns a final review statement whose closing section names the points that require judgment so the decision stays yours. Prose is kept to the bare minimum under the artful-simplicity rule.",
+    "developerName": "transparent-pegasus",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Is this audit instruction appropriate?",
+      "Judge the review criteria in this prompt before I run it.",
+      "Audit the audit instructions in AUDIT.md."
+    ],
+    "websiteURL": "https://github.com/transparent-pegasus/audit-audit"
+  }
+}

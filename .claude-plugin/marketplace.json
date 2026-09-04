@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "audit-audit",
+  "description": "Marketplace for the audit-audit plugin",
+  "owner": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "plugins": [
+    {
+      "name": "audit-audit",
+      "description": "Judge whether an audit instruction is appropriate; returns a final review statement with the points that need your decision.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "transparent-pegasus"
+      },
+      "category": "productivity"
+    }
+  ]
+}
