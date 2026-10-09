@@ -1,0 +1,21 @@
+{
+  "name": "audit-audit",
+  "version": "0.1.0",
+  "description": "Judge whether an audit instruction is appropriate; returns a final review statement with the points that need your decision.",
+  "author": {
+    "name": "transparent-pegasus",
+    "url": "https://github.com/transparent-pegasus"
+  },
+  "homepage": "https://github.com/transparent-pegasus/audit-audit",
+  "repository": "https://github.com/transparent-pegasus/audit-audit",
+  "keywords": [
+    "audit",
+    "review",
+    "meta-review",
+    "instructions",
+    "code-review",
+    "judgment"
+  ],
+  "type": "module",
+  "main": ".opencode-plugin/index.js"
+}

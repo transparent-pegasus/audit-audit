@@ -27,3 +27,9 @@ agent plugin marketplace add https://github.com/transparent-pegasus/audit-audit.
 ```
 
 Then install **Audit Audit** from Cursor's plugin marketplace. Start a new agent session after installation.
+
+OpenCode:
+
+```sh
+opencode plugin -g audit-audit@git+https://github.com/transparent-pegasus/audit-audit.git
+```
