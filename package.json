@@ -17,5 +17,14 @@
     "judgment"
   ],
   "type": "module",
-  "main": ".opencode-plugin/index.js"
+  "main": ".opencode-plugin/index.js",
+  "exports": {
+    ".": "./.opencode-plugin/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
 }

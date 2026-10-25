@@ -28,8 +28,26 @@ agent plugin marketplace add https://github.com/transparent-pegasus/audit-audit.
 
 Then install **Audit Audit** from Cursor's plugin marketplace. Start a new agent session after installation.
 
-OpenCode:
+OpenCode 2 (including installations using the `opencode2` command):
+
+```sh
+opencode plugin add audit-audit@git+https://github.com/transparent-pegasus/audit-audit.git
+```
+
+If your executable is named `opencode2`, use it in place of `opencode`. Alternatively, add the package to `opencode.json` or `opencode.jsonc`:
+
+```json
+{
+  "plugins": ["audit-audit@git+https://github.com/transparent-pegasus/audit-audit.git"]
+}
+```
+
+Restart OpenCode and mention `@audit-audit` to load the skill, or ask it to judge an audit instruction. The plugin registers the bundled skill through the [OpenCode 2 skill API](https://opencode.ai/v2/docs/build/plugins/#skills).
+
+OpenCode 1 (1.18.29 or later):
 
 ```sh
 opencode plugin -g audit-audit@git+https://github.com/transparent-pegasus/audit-audit.git
 ```
+
+The same package supports both versions using OpenCode's [V1/V2 plugin entrypoint](https://opencode.ai/v2/docs/build/plugins/#support-v1).
